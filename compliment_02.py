@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Joaquin Darby
+# DATE:  9/29/2025
+# BRIEF DESCRIPTION: Expanding on the compliment_01 project with an output if anything but 'yes' is inputted.
 
 
 
@@ -15,7 +15,16 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+compliment = input('Would you like a compliment? ')
 
+if compliment == 'yes':
+    print('You have wonderful eyes.')
+
+else:
+    print('No compliment for you!')
+    
+    
+print('Thank you for playing.')
 
 
 
